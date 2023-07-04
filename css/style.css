@@ -3,8 +3,11 @@
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-header,
-h1 {
+body {
+  margin: 4px;
+}
+
+header, h1 {
   background-color: rgb(211, 195, 179);
   font-size: 150%;
   text-align: center;
@@ -34,6 +37,14 @@ li {
     line-height: 2.5 rem;
 }
 
+section {
+  width: 30%;
+  display: inline-block;
+  float: left;
+  margin: 2%;
+}
+
+
 details {
   font-style: italic;
 }
@@ -42,6 +53,7 @@ summary {
 }
 footer {
   background-color: rgb(211, 195, 179);
+  clear: both;
 }
 
 progress {
